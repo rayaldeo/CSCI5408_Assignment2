@@ -6,11 +6,12 @@ For this assignment,we wanted to learn how to extract,transform and load data fr
 For Elasticsearch,we used the IBM Cloud.We took the csv file and converted into json; data that Elasticsearch can accept.The algorithm for uploading our data presented some issues but we were able to remedy them.Once the data was uploaded, we were able to perform query searches of our data.
 
 Python Files:
-Csv_to_json : Converts CSV files to JSON.
-ElasticSearch : Uploads analized tweets to Elasticsearch.
-GetTweets : Gets Tweets from Twitter API.
-Lexicon_Analysis : Runs sentiment analysis on tweets.
-queryonelastic: Runs query searches through elasticsearch.
+
+ - Csv_to_json : Converts CSV files to JSON.
+ - ElasticSearch : Uploads analized tweets to Elasticsearch.
+ - GetTweets : Gets Tweets from Twitter API.
+ - Lexicon_Analysis : Runs sentiment analysis on tweets.
+ - queryonelastic: Runs query searches through elasticsearch.
 
 # References
 
@@ -21,6 +22,5 @@ queryonelastic: Runs query searches through elasticsearch.
 [3] GitHub. (2018). stepthom/lexicon-sentiment-analysis. [online] Available at: https://github.com/stepthom/lexicon-sentiment-analysis [Accessed 7 Oct. 2018].
 
 [4] Docs.python.org. (2018). The Python Tutorial — Python 3.7.1rc1 documentation. [online] Available at: https://docs.python.org/3/tutorial/index.html [Accessed 3 Oct. 2018].
-
 
 
