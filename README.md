@@ -1,4 +1,4 @@
-# CSCI5708_Assignment2
+# CSCI5408_Assignment2
 # Task Description:
 
 For this assignment,we wanted to learn how to extract,transform and load data from Twitter api. For the extraction, we needed a Twitter developer account that would give up access to Twitter’s API. It took a few days for our Twitter account application to be accepted.Once accepted, we were able to use consumer API key,access token, and access token secret to extract tweets from Twitter. We used python for all of our code snippets and it would be used to help describe our process.Once the tweets were extracted from Twitter, we had to write a function that would clean up the tweets. We didn’t want any tweets that had a , “#Something”, e.g. #TimesUp. We also didn’t want tweets with links to images or other web pages.These things would dirty our data.Once the tweets were cleaned up, we performed the sentiment analysis using SocialSent[1]. Every word in a tweet was analyzed and a cumulative score was returned in a CSV file as well as the tweet and overall sentiment.
